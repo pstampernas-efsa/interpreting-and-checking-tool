@@ -1147,6 +1147,7 @@ public class Catalogue extends BaseObject implements Comparable<Catalogue>, Mapp
 	 * @return
 	 */
 	public int getTermCodeLength() {
+		LOGGER.info("The catalogue term code length: " + termCodeLength);
 		return termCodeLength;
 	}
 
@@ -1156,6 +1157,7 @@ public class Catalogue extends BaseObject implements Comparable<Catalogue>, Mapp
 	 * @return
 	 */
 	public String getTermMinCode() {
+		LOGGER.info("The code which is the starting point for creating new codes :" + termMinCode);
 		return termMinCode;
 	}
 
@@ -1165,6 +1167,7 @@ public class Catalogue extends BaseObject implements Comparable<Catalogue>, Mapp
 	 * @return
 	 */
 	public boolean isAcceptNonStandardCodes() {
+		LOGGER.info("The catalogue accepts non standard codes for the terms :" + acceptNonStandardCodes);
 		return acceptNonStandardCodes;
 	}
 
