@@ -1167,7 +1167,7 @@ public class Catalogue extends BaseObject implements Comparable<Catalogue>, Mapp
 	 * @return
 	 */
 	public String getTermMinCode() {
-		LOGGER.info("The code which is the starting point for creating new codes :" + generateMissingCodes);
+		LOGGER.info("The code which is the starting point for creating new codes :" + termMinCode);
 		return termMinCode;
 	}
 
